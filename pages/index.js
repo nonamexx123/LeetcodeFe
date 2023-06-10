@@ -1,11 +1,11 @@
 
 import Description from '../components/description';
-import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
-    <div>
-      <Description />
+    <div style={{ "display":"flex"}}>
+      <Description style={{"width": "50%"}}/>
+      <p style={{"width": "50%"}}>Editor and submit Button implementation !!!</p>
     </div>
   )
 }
